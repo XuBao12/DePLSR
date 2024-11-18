@@ -112,4 +112,4 @@ python scripts/iqa.py
 
 ## Acknowledgements
 
-This code is built on [BasicSR](https://github.com/XPixelGroup/BasicSR), [open_clip](https://github.com/mlfoundations/open_clip) and [DAT]([zhengchen1999/DAT: PyTorch code for our ICCV 2023 paper "Dual Aggregation Transformer for Image Super-Resolution"](https://github.com/zhengchen1999/DAT)). [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch) is used to calculate metrics. Thanks for their excellent work.
+This code is built on [BasicSR](https://github.com/XPixelGroup/BasicSR), [open_clip](https://github.com/mlfoundations/open_clip) and [DAT](https://github.com/zhengchen1999/DAT). [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch) is used to calculate metrics. Thanks for their excellent work.
