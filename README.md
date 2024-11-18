@@ -62,6 +62,7 @@ Use `scripts/generate_lq.py` to generate LSDIR-DE using our proposed degradation
 | :----------------------------------------------------------- | :----------------------------------------------------------: |
 | LSDIR-DE|  LSDIR-DE|
 - Training DAT+SRCLIP
+
 | Training Set                                                 |                         Test Set                          | 
 | :----------------------------------------------------------- | :----------------------------------------------------------: |
 | [LSDIR](https://data.vision.ee.ethz.ch/yawli/index.html)|  [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)  + LSDIR + [RealSR](https://drive.google.com/file/d/17ZMjo-zwFouxnm_aFM6CUHBwgRrLZqIM/view)|
