@@ -12,7 +12,7 @@
 
 ## Results
 
-We achieved state-of-the-art performance. Detailed results can be found in the paper. All visual results of our method can be downloaded [here](./results/test_RealDAT_x4_exp1/visualization). All of the results are reproducible, using the [pre-trained  models](./pretrained_models) we provide.
+We achieved state-of-the-art performance. Detailed results can be found in the paper. All of the results are reproducible, using the [pre-trained  models](./pretrained_models) we provide.
 
 - Comparision with SOTA in Table 2 of the main paper.
 
