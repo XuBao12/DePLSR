@@ -4,6 +4,8 @@
 
 > **Abstract:** In real-world image super-resolution (Real-SR), complex unknown degradations frequently induce ambiguous local structures, fundamentally constraining reconstruction fidelity. While accurate estimation of degradation processes from low-resolution observations enables SR models to mitigate the domain shift between synthetic training data and real-world imaging conditions, this critical estimation paradigm remains an open research challenge. Inspired by advances in multimodal approaches, we propose DePLSR, a method that leverages large-scale pre-trained vision-language models to learn degradation features. Specifically, we introduce Degradation Adaptor to predict degradation features from LR images while preserving clear content representations. To train DePLSR, we design Semantic-driven Degradation Pipeline and construct a mixed degradation dataset containing LR images with corresponding captions. Additionally, we propose Cross-modal Fusion Module to enable downstream SR models to utilize prior degradation information. Our method has achieved impressive performance, with the highest improvement of 0.98 dB on PSNR. Through extensive experiments on both synthetic and real-world datasets, we demonstrate the superior ability for DePLSR to extract real image degradation and improve super-resolution performance. Visualization results indicate that our model yields better restoration for heavily degraded LR images and showcases the capability in removing complex degradations.
 
+![image-20250402235807305](figs/image-20250402235807305.png)
+
 ![image-20241118194900229](figs/image-20241118194900229.png)
 
 ![compare](figs/compare.png)
@@ -24,23 +26,7 @@ We achieved state-of-the-art performance. Detailed results can be found in the p
 <summary>Click to expand</summary>
 
 
-- Visual comparison (x4) in Figure 4 of the main paper.
-
-<p align="center">
-  <img width="900" src="figs/image-20241118183135926.png">
-</p>
-
-
-- Visual comparison (x4) in Figure 3 of the supplementary material.
-
-<p align="center">
-  <img width="900" src="figs/image-20241118183202916.png">
-</p>
-
-
-
-
-- Visual comparison (x4) in Figure 4 of the supplementary material.
+- Visual comparison (x4) 
 
 <p align="center">
   <img width="900" src="figs/image-20241118183214366.png">
